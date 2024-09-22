@@ -99,26 +99,6 @@ document.addEventListener('DOMContentLoaded', function() {
         showCursor: false
     });
 
-    // Typing animation for title
-    new Typed('#typed-title', {
-        strings: ['Yale AI Society'],
-        typeSpeed: 50,
-        backSpeed: 0,
-        startDelay: 1000,
-        loop: false,
-        showCursor: false
-    });
-
-    // Typing animation for slogan
-    new Typed('#typed-slogan', {
-        strings: ['Exploring the Future of Artificial Intelligence'],
-        typeSpeed: 30,
-        backSpeed: 0,
-        startDelay: 2500,
-        loop: false,
-        showCursor: false
-    });
-
     // Call functions to set up the website
     populateLeadershipSection();
     setupSmoothScrolling();
