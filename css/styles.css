@@ -92,7 +92,7 @@ header:hover {
 }
 
 #main-nav ul li {
-    margin-left: 1.5rem;
+    margin-left: 1.2rem; /* Reduced margin for better spacing */
 }
 
 #main-nav ul li a {
@@ -141,6 +141,30 @@ header:hover {
 
 .cta-button:hover::before {
     left: 0;
+}
+
+/* New Subtle CTA Button */
+.cta-button-subtle {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: transparent;
+    color: var(--secondary-color);
+    text-decoration: none;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    margin-right: 0.5rem; /* Added margin for separation from main CTA */
+}
+
+.cta-button-subtle:hover {
+    background-color: rgba(99, 170, 255, 0.2); /* Increased opacity for better contrast */
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+    text-shadow: 0 0 5px var(--accent-color);
 }
 
 /* Sections */
